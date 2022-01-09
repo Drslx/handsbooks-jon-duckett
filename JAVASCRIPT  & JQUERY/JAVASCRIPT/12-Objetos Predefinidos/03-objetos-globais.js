@@ -26,6 +26,10 @@ console.log(saying.indexOf("s"));
 console.log(saying.lastIndexOf("e"));
 console.log(saying.charAt(0));
 console.log(saying.substring(8, 14));
-console.log(saying.split(''));
+console.log(saying.split(""));
 console.log(saying.trim());
-console.log(saying.replace('Home', 'Code'));
+console.log(saying.replace("Home", "Code"));
+
+// Sempre que houver um valor numerico podemos usar propriedades e metodos do Objeto NUMBER.
+let numA;
+console.log(isNaN(numA));
