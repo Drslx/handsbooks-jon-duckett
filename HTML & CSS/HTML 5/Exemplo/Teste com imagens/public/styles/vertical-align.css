@@ -1,0 +1,9 @@
+/* alinhamento vertical */
+
+img {
+  height: 20em;
+}
+
+p {
+ text-indent: -9999px;
+}

@@ -1,0 +1,37 @@
+/* PROPRIEDADES DE TABELA */
+
+body {
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bordas, Estilos, Cor */
+table,
+td {
+  width: 150px;
+  text-align: center;
+
+  border: 2px groove ;
+  border-radius: 4px;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+
+td {
+  padding: 5px 2px 1px 8px;
+  border: 2px solid;
+
+  letter-spacing: 2px;
+}
+
+.one,
+.tree {
+  background-color: #efefef;
+}
+
+tr:hover {
+  background-color: #c3e6e5;
+}

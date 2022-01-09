@@ -1,0 +1,25 @@
+/* CENTRALIZANDO CONTEUDO */
+
+/* Para centralizar uma caixa na pagina(ou dentro de um elemento que ela reside ),
+podemos definir 'margin-left e margin-right como auto'
+*/
+
+body {
+  text-align: center;
+  
+}
+
+/* Largura da caixa, Largura da borda e Preenchimento dentro */
+.one,
+.two {
+  width: ;
+  padding: 20px;
+  border: 20px solid #0088dd;
+}
+
+/* Alinhando conteudo de dentro da caixa */
+.two {
+  margin: 10px auto 10px auto;
+  text-align: left;]
+  marg
+}

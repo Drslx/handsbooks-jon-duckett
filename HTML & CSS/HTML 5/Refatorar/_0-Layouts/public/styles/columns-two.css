@@ -1,0 +1,38 @@
+/* LAYOUTS MULTICOLUNA COM ELEMENTOS FLUTUANTES */
+
+body {
+  position: absolute;
+  left: 15%;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  border: 1px solid;
+  height: 97%;
+
+}
+
+/* 
+Estilo para Duas Colunas
+.column1of3 {
+  float: left;
+  width: 400px;
+  margin: 10px;
+
+}
+
+.column2of3 {
+  float: right;
+  width: 300px;
+  margin: 10px;
+}
+
+*/
+
+.column1of3,
+.column2of3,
+.column3of3 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+}

@@ -1,0 +1,65 @@
+/* Layout Fixo */
+/* Usam largura e altura fixa, normalmente especificada em pixels */
+body {
+  width: 960px;
+  margin: 0 auto;
+
+  text-align: center;
+  background-color: rgb(68, 67, 65);
+}
+
+.content {
+  overflow: auto;
+  height: 100%;
+}
+
+.nav,
+.feature,
+.footer {
+  margin: 10px;
+  padding: 10px;
+
+  border: none;
+  border-radius: 40px;
+  background-color: #efefef;
+}
+
+.footer {
+  text-indent: 10px;
+  text-align: start;
+
+  color: blueviolet;
+}
+
+.one,
+.two,
+.three {
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  
+  border: none;
+  border-radius: 30px;
+  background-color: #efefef;
+}
+
+
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+
+  text-decoration: underline;
+}
+
+p{
+  line-height: 1.8em;
+}

@@ -1,0 +1,33 @@
+/* LIMITANDO A ALTURA */
+
+/* APLICANDO LARGURA, FONTE, COR ALTURA DE LINHA*/
+h2 {
+  font-size: 130%;
+  text-transform: capitalize;
+  color: #0088dd;
+
+  border-bottom: 1px solid #0088dd;
+  line-height: 1.4em;
+}
+
+h3 {
+  font-size: 100%;
+  text-transform: capitalize;
+}
+
+/* LARGURA, TAMANHO DA FONTE E ALTURA DA LINHA PARA ELEMENTO P */
+p {
+  max-width: 450px;
+  min-width: 30px;
+
+  font-size: 90%;
+  line-height: 1.4em;
+}
+
+/* ALTURA MINIMA E MAXIMA PARA TODOS ELEMENTO P*/
+p {
+  max-height: 90px;
+  min-height: 10px;
+}
+
+/*  */

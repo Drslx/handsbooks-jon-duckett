@@ -1,0 +1,14 @@
+/* IMAGENS PARA MARCADORES */
+
+/*  */
+
+ul {
+  margin-left: 50%;
+  list-style-image:  url("https://lh3.googleusercontent.com/proxy/twsV5SjhZw1XxYxccBwFY7HO8aGctdjYSzts7mB-5wZMpSiZwJhc9jZVgg2QRPr7tooBnmojZTzObt-Dvo-zwslCwdBzxaZiDXW3BkZkT2glj_xcG-zMveC9QL9-h2k1_iko46AIvdgNK4B0oeblyyEaKTQUoTOU-g8qYCvpOYcYiPTyKysmfQHGg7UF2rEfI7PHaNl5zTYemUPN20NjL5iY-R0KONjre8en9Eu7");
+}
+
+li{
+    margin: 1px;
+    height: 50px
+    
+}

@@ -1,0 +1,28 @@
+/* PREENCHIMENTO */
+/* 
+A propriedade 'padding' nos permite especificar o espaco que deve aparecer,
+entre o conteudo de um elemento e sua borda
+O valores e na maioria em 'px' mas podemos usar '%, ems'
+*/
+.one,
+.two,
+.tree,
+.four {
+  width: 45%;
+  border: 2px solid #0088dd;
+}
+
+.two {
+  padding: px;
+}
+
+/* Podemos especificar diferentes valores  para cada lado de uma caixa */
+.tree {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+/*  Podemos tambem abreviar 'top, right, bottom, left' */
+.four {
+  width: 20%;
+  padding: 20px 10px 3px 5px;
+}

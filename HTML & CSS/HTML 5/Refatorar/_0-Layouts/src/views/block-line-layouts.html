@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Layouts</title>
+
+    <link rel="stylesheet" href="/00-Layouts/public/styles/layouts.css" />
+    <link rel="stylesheet" href="/00-Layouts/public/styles/posi.css" />
+
+    <style>
+      .footer {
+        display: block;
+        position: relative;
+        top: 10px;
+
+        border: 1px solid white;
+
+        text-indent: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Caixa em nivel de bloco iniciam em uma nova linha -->
+    <div class="block">
+      <h1>Lorem Ipsum</h1>
+      <p class="p-one">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </p>
+
+      <ul>
+        <li>Loren ipsum dolor sit</li>
+        <li>Consectetur adipiscing</li>
+        <li>Elit, sed do eiusmod</li>
+      </ul>
+    </div>
+
+    <!-- Caixa em nivel de linha  -->
+    <div class="line">
+      <p class="p-two">
+        <i>"Lorem ipsum</i> dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut <b> labore et dolore </b> magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.<br />
+        <img
+          src="/00-Layouts/public/images/cross-sign-element-red-x-260nw-567030823.webp"
+          width="70px"
+          height="70px"
+          alt="test"
+        />
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum."
+      </p>
+    </div>
+
+    <span class="footer"
+      ><h3 style="color: aliceblue">Block and Line Layouts</h3></span
+    >
+  </body>
+</html>

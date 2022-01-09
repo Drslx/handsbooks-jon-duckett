@@ -1,0 +1,27 @@
+/* POSICIONANDO O MARCADOR */
+
+/* A propriedade list-style-position nos permite indicar onde se o marcador deve aparecer dentro ou fora 
+*/
+ul {
+  width: 150px;
+}
+
+li {
+  margin: 6px;
+}
+
+.one {
+  list-style-position: outside;
+}
+
+.two {
+  list-style-position: inside;
+}
+
+.one,
+.two {
+  border: 2px solid #eeeeee;
+
+  margin-left: auto;
+  margin-right: auto;
+}

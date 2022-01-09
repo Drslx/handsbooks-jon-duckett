@@ -1,0 +1,43 @@
+/* ESTILO DE BORDA */
+
+body {
+  width: 50%;
+}
+
+
+.one {
+  border-style: solid;
+  margin: 20px;
+}
+
+.two {
+  border-style: dotted;
+  padding: 10px;
+}
+
+.tree {
+  border-style: dashed;
+  margin: 20px;
+  padding: 20px;
+
+}
+
+.four {
+  border-style: double;
+}
+
+.five {
+  border-style: groove;
+}
+.six {
+  border-top-style: outset;
+  border-right-style: dashed;
+  border-bottom-style: solid;
+  border-left-style: double;
+
+  border-top-color: rebeccapurple;
+  border-right-color: blueviolet;
+  border-bottom-color: brown;
+  border-left-color: rosybrown;
+}
+

@@ -1,0 +1,22 @@
+/* EXCESSO DE CONTEUDO */
+
+/* OCULTANDO O P.ONE  */
+.one {
+  overflow: hidden;
+  ;
+}
+
+/* AO PASSAR O MOUSE CRIAR UM SCROLL AO P.ONE */
+.one:hover {
+  overflow: auto;
+}
+
+.two {
+  overflow: scroll;
+  max-height: 200px;
+}
+
+/* O CONTEUDO SERA OCULTADO CASO NAO CAIBA NA CAIXA */
+.tree {
+  overflow: hidden;
+}

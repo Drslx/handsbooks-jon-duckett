@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Email input</title>
+
+    <!-- Aplicando CSS Interno -->
+    <style>
+      body {
+        max-width: 40%;
+        min-width: 10px;
+
+        margin: 30px;
+        padding: 20px;
+        border: 2px solid red;
+        border-radius: 10px;
+      }
+    </style>
+
+    <!-- Aplicando CSS Externo -->
+    <link
+      rel="stylesheet"
+      href="/11-Forms/public/styles/hover-active-focus.css"
+    />
+  </head>
+  <body>
+    <fieldset>
+      <!-- Entrada de email com aviso caso nao seja email -->
+      <form action="http://www.exemplo.com/subscribe.js">
+        <p class>Please enter your email address:</p>
+        <input class="text" type="email" name="email" />
+        <input class="submit" type="submit" value="Submit" name="" id="" />
+      </form>
+    </fieldset>
+    <br />
+
+    <fieldset>
+      <!-- Entrada de url com aviso caso nao seja uma url -->
+      <form action="">
+        <p>Please enter your website address</p>
+        <input type="url" name="website" />
+        <input type="submit" value="Submit" />
+      </form>
+    </fieldset>
+  </body>
+</html>

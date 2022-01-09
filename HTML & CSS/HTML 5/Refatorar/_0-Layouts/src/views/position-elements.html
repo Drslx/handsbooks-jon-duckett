@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Position Elements</title>
+    <!--  -->
+    <link rel="stylesheet" href="/00-Layouts/public/styles/position.css" />
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+
+        color: rgb(134, 103, 62);
+      }
+
+      img {
+        position: fixed;
+        top: 70px;
+        right: 0.1px;
+
+        width: 42.2rem;
+        height: 700px;
+      }
+
+      /* Paragrafos  */
+      p {
+        position: relative;
+        top: 70px;
+        left: 40px;
+
+        margin: 10px;
+        padding: 5px;
+        width: 580px;
+
+        text-align: justify;
+        line-height: 1.4em;
+      }
+
+      .paragrafos {
+        margin-top: 70px;
+      }
+
+      /* Top Page */
+      a {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+
+        padding: 10px;
+        border-radius: 20px;
+
+        letter-spacing: 3px;
+        text-align: center;
+        text-decoration: none;
+
+        color: white;
+        background-color: rgb(134, 103, 62);
+      }
+
+      @keyframes move {
+        from {
+          transform: translateY(5);
+        }
+        to {
+          transform: translateX();
+        }
+      }
+
+      a {
+        animation: move 7s infinite;
+        animation-direction: alternate;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-header">
+      <img
+        src="https://t2.gstatic.com/images?q=tbn:ANd9GcR9y9FYXOwsfBF50inc5_ZBXpTCNligIm4Oy4KfD5J2NSY1uOHfpg41nooOnjzb "
+        alt="Baron Drais"
+      />
+    </div>
+    <div id="top">
+      <h1 class="relative">The Evolution of the Bicycle (Relativo)</h1>
+      <h1 class="absolute">The Evolution of the Bicycle (Absoluto)</h1>
+      <h1 class="fixed">The Evolution of the Bicycle (Fixo)</h1>
+      <div class="paragrafos">
+        <p>
+          Karl Drais, baptised as Karl Friedrich Christian Ludwig, Freiherr (=
+          baron) Drais von Sauerbronn first was a forest officer employed by the
+          grand duchy of Baden. Later he became off duty whilst retaining his
+          salary and did start a carer as an inventor. Next to others, he did
+          invent a device to record piano music on paper, then a stenograph
+          using 16 characters, two four-wheeled human powered vehicles and on
+          top of all, the two-wheeled velocipede, also called Draisine or
+          hobbyhorse, which he presented first time on June 12 th 1817 in
+          Mannheim.
+        </p>
+
+        <p>
+          This was the first vehicle requiring to keep balance whilst using it
+          as a key principle. It was equipped decades later by Pierre Michaux
+          with pedals to become the modern bicycle and further down the road,
+          the automobile invented by Carl Benz. For his inventions, Grand Duke
+          Carl awarded Drais a pension and appointed him as a professor for
+          mechanic science. His experiments with small rail-road bound vehicles
+          did contribute to the railroad handcar, having even today the German
+          name Draisine.
+        </p>
+
+        <p>
+          was a fervent democrat, supported the wave of revolutions that swept
+          Europe in 1848, dropping his title and the aristocratic "von" from his
+          name in 1849. After the revolution in Baden had collapsed, Drais
+          became mobbed and ruined by royalists. After his death, Drais's
+          enemies systematically repudiate his invention of horseless moving on
+          two wheels
+        </p>
+      </div>
+    </div>
+
+    <p><a href="#top">Top Page</a></p>
+  </body>
+</html>

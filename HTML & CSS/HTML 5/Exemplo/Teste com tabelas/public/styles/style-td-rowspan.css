@@ -1,0 +1,36 @@
+/* Rowspan  */
+
+table {
+  border-top: 10px solid rebeccapurple;
+  border-bottom: 10px solid rebeccapurple;
+}
+
+/* Linha */
+tr {
+  background-color: #efefef;
+}
+
+/* Bloco para Titulos 'th' */
+th {
+  width: 120px;
+  padding: 5px 5px 2px 10px;
+
+  background-color: #9c969680;
+
+  text-align: justify;
+}
+
+th:hover {
+  color: #efefef;
+  background-color: #554d4d80;
+}
+
+.one {
+  background-color: black;
+}
+/* Fim do blocos de Titulos 'th' */
+
+td:hover {
+  color: #efefef;
+  background-color: #554d4d80;
+}

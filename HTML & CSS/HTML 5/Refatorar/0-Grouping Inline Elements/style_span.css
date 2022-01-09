@@ -1,0 +1,17 @@
+body {
+  background-color: rgba(143, 127, 127, 0.459);
+  padding-left: 20px;
+}
+
+.gallery {
+  text-transform: uppercase;
+}
+
+.gallery:hover {
+  color: brown;
+}
+
+.att {
+  text-decoration: underline;
+  font-style: italic;
+}

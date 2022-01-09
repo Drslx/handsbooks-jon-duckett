@@ -1,0 +1,36 @@
+[class] {
+  width: 30%;
+  border: 3px solid;
+  margin: 1%;
+  padding: 0px;
+}
+
+/* Algumas maneiras de especificar cores para bordas */
+
+/* Nomes de cores */
+.one {
+  border-top-style: outset;
+  border-right-style: dashed;
+  border-bottom-style: solid;
+  border-left-style: double;
+
+  border-top-color: rebeccapurple;
+  border-right-color: blueviolet;
+  border-bottom-color: brown;
+  border-left-color: rosybrown;
+}
+
+/* Hexadecimais */
+.two {
+  border-color: #0088dd;
+}
+
+/* Hexadecimais abreviado */
+.tree {
+  border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+/* Rgb  */
+.four {
+  border-color: rgb(255, 3, 0, 88);
+}

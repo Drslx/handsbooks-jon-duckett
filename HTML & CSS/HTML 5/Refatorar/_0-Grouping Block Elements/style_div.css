@@ -1,0 +1,32 @@
+body {
+  background-color: rgba(143, 127, 127, 0.459);
+  padding-left: 20px;
+}
+
+#header {
+  background-color: silver;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+img {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+ul {
+  font-size: larger;
+  margin: 10px;
+}
+
+li {
+  color: red;
+}
+
+li:hover {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}

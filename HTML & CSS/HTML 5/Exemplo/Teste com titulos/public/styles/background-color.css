@@ -1,0 +1,14 @@
+/* background define a cor de fundo da caixa  */
+h1,
+h2 {
+  color: white;
+}
+h1 {
+  padding: 10px;
+  background-color: darkcyan;
+}
+
+h2 {
+  padding: 10px;
+  background-color: #ee3e80;
+}

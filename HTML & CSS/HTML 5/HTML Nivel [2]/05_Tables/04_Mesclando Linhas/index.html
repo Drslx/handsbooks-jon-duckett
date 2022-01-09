@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Spanning-Rows</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <!-- Mesclando Colunas com atributo "colspan" -->
+      <!-- O atributo colspan pode ser usado no elemento 'th' e 'td' e indica quantas colunas a celula deve se estender -->
+      <h1>Spanning-Rows</h1>
+
+      <table>
+        <!-- Linha da tabela 1-->
+        <tr>
+          <!-- Titulo para uma coluna 1 -->
+          <th></th>
+          <th>ABC</th>
+          <th>BBC</th>
+          <th>CNN</th>
+        </tr>
+
+        <tr>
+          <th>6pm - 7pm</th>
+          <!-- Dados da tabela2 -->
+          <td rowspan="2">Movie</td>
+          <td>Comedy</td>
+          <td>News</td>
+        </tr>
+
+        <tr>
+          <th>7pm - 8pm</th>
+          <td>Sports</td>
+          <td>Current Affairs</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

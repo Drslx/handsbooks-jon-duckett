@@ -1,0 +1,62 @@
+/* Layout Liquido */
+/* Usam largura de cada caixa em porcentagem */
+body {
+  width: 90%;
+  margin: 0 auto;
+
+  text-align: center;
+
+}
+
+.content {
+  overflow: auto;
+}
+
+.nav,
+.feature,
+.footer {
+  margin: 1%;
+  
+  background-color: #efefef;
+}
+
+.art-one,
+.art-two,
+.art-three {
+  float: left;
+  width: 31.3%;
+  margin: 1%;
+}
+
+.three {
+  margin-right: 0%;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+.nav,
+.footer {
+  padding: 0.5em 0;
+
+  background-color: #efefef;
+}
+
+.art-one,
+.art-two,
+.art-three {
+
+
+  height: 10em;
+  background-color: #efefef;
+}
+
+.feature {
+  height: 10em;
+  margin-bottom: 1em;
+
+
+}
+

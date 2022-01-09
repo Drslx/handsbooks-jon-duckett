@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Table Readings</title>
+
+    <link rel="stylesheet" href="/10-Tables/public/styles/empty-cells.css" />
+
+    <link rel="stylesheet" href="/10-Tables/public/styles/border-spacing-border-collapse.css">
+  </head>
+  <body>
+    <!-- O elemento <th> representa o Titulo de uma coluna ou linha  -->
+    <!-- O atributo scope e usado para indicar se e um titulo para coluna ou linha -->
+    <!-- scope pode receber valores row para indicar um titulo uma linha ou col para titulo de coluna -->
+
+    <h1>Atributo scope com valores 'row = linha' e 'col = coluna'</h1>
+
+    <table>
+      <tr>
+        <th></th>
+        <!-- 'scope col para titulo de coluna' -->
+        <th class="th-one" scope="col">Saturday</th>
+        <th class="th-one" scope="col">Sunday</th>
+      </tr>
+      <!--  -->
+      <tr>
+        <!-- 'scope row para titulo de linha' -->
+        <th scope="row">Tickets Sold</th>
+        <td class="td-sold">120</td>
+        <td>135</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Total sales:</th>
+        <td class="td-sales">$600</td>
+        <td class="td-sales">$675</td>
+      </tr>
+    </table>
+    <hr />
+    <br />
+    <!--  -->
+    <h2>testem em borda em calulas vazias</h2>
+    <table class="teste-one">
+      <br />
+      <tr>
+        <th>Teste 1</th>
+        <td class="one">1</td>
+        <td class="one">2</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td>3</td>
+        <td></td>
+      </tr>
+    </table>
+
+    <table class="teste-two">
+      <br />
+      <tr>
+        <th>Teste 2</th>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td>3</td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>

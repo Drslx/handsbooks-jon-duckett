@@ -1,0 +1,115 @@
+/* CONTROLANDO O TAMANHO DAS IMAGENS COM CSS */
+
+body {
+  margin-top: 0px;
+  background-color: rebeccapurple;
+}
+
+.header {
+  float: left;
+  clear: both;
+  width: 400px;
+  margin: 10px;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(10px);
+  }
+
+  to {
+    transform: translateY();
+  }
+}
+
+img:hover,
+h1 {
+  animation: move 1s infinite;
+  animation-direction: alternate;
+}
+
+h1 {
+  line-height: 50px;
+
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(4, 211, 97);
+
+  transform: rotateY(40deg);
+  perspective-origin: 0 50%;
+}
+
+h1::first-letter,
+span {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+footer {
+  position: absolute;
+  top: 500px;
+  bottom: 100px;
+
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(4, 211, 97);
+}
+
+/* Estilo para h1 dentro da image */
+.large_h2 {
+  position: absolute;
+  top: 219px;
+  left: 219px;
+}
+
+.medium_h2 {
+  position: absolute;
+  top: 350px;
+  left: 608px;
+}
+
+.small_h2 {
+  position: absolute;
+  top: 420px;
+  left: 798px;
+}
+
+.large_h2,
+.medium_h2,
+.small_h2 {
+  color: rebeccapurple;
+}
+
+.large {
+  width: 500px;
+  height: 500px;
+}
+
+.medium {
+  width: 250px;
+  height: 250px;
+}
+
+.small {
+  width: 100px;
+  height: 100px;
+}
+
+.large,
+.medium,
+.small {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.container {
+  position: fixed;
+  top: 25px;
+  left: 30%;
+
+  float: none;
+  overflow: auto;
+  width: 100%;
+
+  margin-top: 0px;
+}

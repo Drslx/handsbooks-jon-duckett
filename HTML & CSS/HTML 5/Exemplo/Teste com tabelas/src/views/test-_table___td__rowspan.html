@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Spanning Rows</title>
+
+    <link rel="stylesheet" href="/10-Tables/public/styles/style-td-rowspan.css">
+  </head>
+  <body>
+    <!-- Mesclando linhas com atributo "rowspan" -->
+    <table><hr /><!-- Tabela e quebra de linha -->
+      <tr><!-- Inicio de linha -->
+        <th class="one">Sem Uso</th><!-- Titulo de coluna sem uso -->
+        <!-- Todos os titulos -->
+        <th>ABC</th> 
+        <th>BBC</th>
+        <th>CNN</th>
+      </tr>
+      <!--  -->
+      <tr>
+        <th>6pm - 7pm</th>
+        <td rowspan="2">Movie</td>
+        <td class="td-one">Comedy</td>
+        <td>News</td>
+      </tr>
+      <!--  -->
+      <tr>
+        <th>7pm - 8pm</th>
+        <td>Sport</td><!-- Dados da tabela -->
+        <td>Current Affairs</td>
+
+      </tr>
+    </table><hr />
+  </body>
+</html>

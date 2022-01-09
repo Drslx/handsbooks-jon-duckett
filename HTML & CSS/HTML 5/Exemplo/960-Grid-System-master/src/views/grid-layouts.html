@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Grid Layout</title>
+
+    <link
+      rel="stylesheet"
+      href="/*-960-Grid-System-master/code/css/960_12_col.css"
+    />
+
+    <style>
+      * {
+        font-family: arial, Verdana, sans-serif;
+        text-align: center;
+        color: #665544;
+      }
+
+      body {
+        border: 5px solid;
+        border-radius: 0px;
+
+        background: #413f3b ("/*-960-Grid-System-master/code/img/12_col.gif");
+      }
+
+      img {
+        width: 100px;
+        height: 90px;
+
+        margin-top: 10px;
+        margin-bottom: -15px;
+      }
+
+      h1 {
+        height: 19px;
+        margin-top: 5px;
+      }
+      #nav,
+      #feature,
+      .article,
+      #footer {
+        margin-top: 20px;
+        padding: 10px 0px 5px 0px;
+
+        background-color: #b1aeae81;
+      }
+
+      #feature,
+      .article {
+        height: 100px;
+      }
+
+      li {
+        display: inline;
+        padding: 5px;
+      }
+
+      @keyframes move {
+        from {
+          transform: translatey();
+        }
+
+        to {
+          transform: translateX(10px);
+        }
+      }
+
+      h2:hover {
+        animation: move 2s infinite;
+        animation-direction: alternate;
+
+        width: 840px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- dd -->
+    <div class="container_12 clearfix">
+    
+      <div id="header" class="grid_12">
+        <img
+          src="/*-960-Grid-System-master/logo_files/960_logo.png"
+          alt="960 Grid System"
+        />
+
+        <div id="nav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="feature" class="grid_12"><p>Feature</p></div>
+      <div class="article grid_4">
+        <p>One</p>
+        <table>
+          <td></td>
+        </table>
+      </div>
+      <div class="article grid_4"><p>Two</p></div>
+      <div class="article grid_4"><p>Three</p></div>
+
+      <div id="footer" class="grid_12"><p>&copy; Copyright 2020</p></div>
+      <!-- Fim .container_12 -->
+    </div>
+
+    <h2>Framework 960.GS</h2>
+  </body>
+</html>

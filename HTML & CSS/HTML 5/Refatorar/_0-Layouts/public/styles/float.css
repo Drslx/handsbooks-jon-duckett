@@ -1,0 +1,40 @@
+body {
+  width: 750px;
+}
+
+/*  Elemento  Flutuantes "Usando a propriedade float" */
+blockquote {
+  float: right;
+  width: 275px;
+
+  font-size: 130%;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+  border-top: 1px solid #665544;
+  border-bottom: 1px solid #665544;
+}
+
+/* Comentado para esconder elementos usado no exemplo float */
+.float-1, .float-2,
+blockquote {
+  display: none;
+}
+
+/* Posicionando elementos lado a lado com  "float" */
+p {
+  width: 230px;
+  float: left;
+  
+  margin: 5px;
+  padding: 5px;
+  background-color: #efefef;
+
+}
+
+/* Aplicado no quarto paragrafo  */
+.clear {
+    clear: left;
+}

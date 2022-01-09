@@ -1,0 +1,54 @@
+/*  */
+
+body {
+  color: #665544;
+  background-color: #d4d0c6;
+
+  background-image: url("https://img.freepik.com/fotos-gratis/piso-parede-de-luz-recycle-simples_1253-754.jpg?size=626&ext=jpg");
+
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.wrapper {
+  width: 720px;
+  margin: 0px auto;
+}
+
+.header {
+  margin: 40px 0px 20px 0px;
+}
+
+.entry {
+  width: 220px;
+  float: left;
+  margin: 10px;
+  height: 198px;
+}
+
+figure {
+  display: block;
+  position: relative;
+  right: 40px;
+  width: 202px;
+
+  background-color: #ebe4c4dc;
+
+  padding: 9px;
+}
+
+figure img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #d6d6d6;
+}
+
+figcaption {
+  padding-left: 20px;
+  text-align: start;
+  text-indent: -18px;
+
+  background-image: url("https://floriculturaflorearte.com.br/wp-content/uploads/2020/08/favicon.png");
+  background-repeat: no-repeat;
+  background-position: 0% 20%;
+}

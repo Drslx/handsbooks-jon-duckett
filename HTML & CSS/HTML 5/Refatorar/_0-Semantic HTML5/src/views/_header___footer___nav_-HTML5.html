@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Layout HTML5</title>
+
+    <style>
+      body {
+        height: 600px;
+        background-image: url("https://bemnamodelo.files.wordpress.com/2013/11/otm-background-bege.png?w=1200");
+        background-repeat: repeat-x;
+
+        background-color: antiquewhite;
+      }
+
+      h1 {
+        margin-top: 10px;
+        text-indent: 10px;
+      }
+
+      h1,
+      .nav {
+        position: fixed;
+        top: 0px;
+        z-index: 60;
+      }
+
+      nav {
+        position: relative;
+        top: -50px;
+        left: 57em;
+      }
+      .current {
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 20px;
+        padding-left: 10px;
+      }
+
+      .section {
+        position: absolute;
+        bottom: 260px;
+        width: 40%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid;
+      }
+
+      .section-2 {
+        position: absolute;
+        top: 400px;
+
+        width: 40%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid;
+      }
+
+      .color-blue {
+        color: blue;
+        font-weight: bold;
+        font-size: larger;
+      }
+
+      .section li {
+        /* Selecionar elemento li filho do elemento div com a classe .section */
+        width: 50%;
+        margin-top: 10px;
+      }
+
+      .section {
+        margin-top: 100px;
+      }
+
+      .section > p {
+        /* Seleciona o elemento p que e filho do elemento div */
+        font-weight: bold;
+        margin-top: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Cabeçalho e Rodapes "Semantico" -->
+    <header>
+      <h1>Cabeçalho e Rodapes</h1>
+      <nav>
+        <ul class="nav">
+          <li class="current"><a href="" class="current">Home</a></li>
+          <li class="current"><a href="">Classes</a></li>
+          <li class="current"><a href="">Catering</a></li>
+          <li class="current"><a href="">About</a></li>
+          <li class="current"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="section">
+      <p class="color-blue">&lt;header&gt; &lt;footer&gt</p>
+      <p>Esses elementos podem ser usados para:</p>
+      <ul>
+        <li>
+          O cabeçalho principal ou rodapé que aparece na parte superior de cada
+          pagina
+        </li>
+        <li>
+          Um cabeçalho ou rodapé para um &lt;article&gt; ou &lt;section&gt;
+          individual dentro da pagina
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-2">
+      <p class="color-blue">&lt;nav&gt;</p>
+      <p>
+        O elemento e usado para conter os principais bloco da navegação no site
+      </p>
+    </div>
+
+    <footer>&copy; 2021 Douglas.drs</footer>
+  </body>
+</html>

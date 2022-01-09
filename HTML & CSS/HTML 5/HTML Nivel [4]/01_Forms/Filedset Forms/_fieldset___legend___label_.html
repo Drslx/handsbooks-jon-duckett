@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Grouping Form Elements</title>
+
+    <style>
+      body {
+        width: 100px;
+      }
+      h1 {
+        position: relative;
+
+        left: 25%;
+        border: 1px solid;
+        width: 610px;
+
+        text-align: center;
+
+        line-height: 50px;
+      }
+
+      fieldset {
+        position: relative;
+        left: 25%;
+        margin-left: 100px;
+        width: 400px;
+
+        font-size: larger;
+        font-style: oblique;
+
+        letter-spacing: 1px;
+        border-radius: 10px;
+        background-color: #efefef;
+
+        border: 1px solid;
+      }
+
+      legend {
+        padding: 10px;
+        border: 3px solid;
+        border-radius: 10px;
+
+        background-color: #efefef;
+      }
+
+      input {
+        height: 30px;
+        width: 50%;
+        font-size: large;
+
+        border: 1px solid;
+        border-radius: 8px;
+      }
+      .in-name {
+        text-transform: capitalize;
+      }
+      .in-email:focus,
+      .in-email::first-letter {
+        text-transform: lowercase;
+        background-color: rgb(223, 213, 201);
+      }
+
+      .send-contact {
+        position: absolute;
+        bottom: 13px;
+        right: 0px;
+        left: 241px;
+        margin-right: auto;
+        margin-left: auto;
+
+        border: 1px solid;
+        border-radius: 8px;
+
+        width: 100px;
+        height: 30px;
+
+        font-size: 18px;
+      }
+      .send-contact:hover {
+        background-color: rgba(203, 211, 211, 0.39);
+      }
+
+      img {
+        position: absolute;
+        top: 28px;
+        right: 10px;
+
+        width: 170px;
+        height: 170px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Agrupando Elementos de Formulario</h1>
+    <br />
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Contact details</legend>
+
+        <label
+          >Name<br />
+          <input class="in-name" type="text" name="name" id="nome" /></label
+        ><br />
+        <label
+          >Email<br />
+          <input class="in-email" type="email" name="email" id="email" /></label
+        ><br />
+        <label
+          >Telephone<br />
+          <input type="tel" name="tel" id="tel"
+        /></label>
+
+        <img
+          src="https://www.gremiopedia.com/images/thumb/b/b8/Douglas_dos_Santos.png/260px-Douglas_dos_Santos.png"
+          alt="Image-Contact"
+        />
+
+        <button class="send-contact" type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

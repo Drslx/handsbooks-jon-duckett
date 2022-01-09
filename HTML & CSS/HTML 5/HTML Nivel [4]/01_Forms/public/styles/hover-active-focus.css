@@ -1,0 +1,35 @@
+/* respondendo ao usuario */
+fieldset {
+  border: 2px solid #665544;
+}
+
+/* input normal  */
+input {
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #665544;
+}
+
+/* input ao passar o mouse sobre */
+input.submit:hover {
+  background-color: #665544;
+  color: #ffffff;
+}
+
+/* input ao clicar para enviar */
+input.submit:active {
+  background-color: chocolate;
+}
+
+/* cor do texto inserido na caixa */
+input.text {
+  color: #cccccc;
+   
+}
+
+input.text2:focus {
+  color: #665544;
+}
+
+[class] {
+  color: blue;
+}

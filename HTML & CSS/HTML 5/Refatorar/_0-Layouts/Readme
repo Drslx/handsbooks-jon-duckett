@@ -1,0 +1,15 @@
+RESUMO LAYOUT
+
+Elementos <div> sao muitas vezes usados como elementos conteiners para agrupar as seções de uma pagina.
+
+Navegadores exibem paginas em fluxo normal, a menos que especifique um posicionamento relativo, absoluto ou fixo.
+
+A propriedade float move o conteudo para esquerda ou direita da pagina e podem ser usado para criar formatos multicolunas.(Itens flutuantes requerem largura fix.).
+
+Paginas podem ter largura fixa ou layouts líquidos (esticados).
+
+Grades ajudam a criar designs profissionais e flexíveis.
+
+Frameworks CSS fornecem regras para tarefas comuns.
+
+Podemos incluir varios arquivos CSS em uma pagina (Se duas regras se aplicam ao mesmo elemento, entao a regras mais adiante tem precedência).

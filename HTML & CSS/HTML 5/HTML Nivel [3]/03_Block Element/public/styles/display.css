@@ -1,0 +1,24 @@
+/* 
+ALTERAR EM LINHA/BLOCO 
+Deixando o elemento de nivel de bloco em linha
+*/
+.box__visible {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid;
+}
+
+li {
+  display: inline ;
+  margin: 3px;
+}
+
+/* Oculta o elemento usando o valor 'none' sem deixar espaço */
+
+.coming-soon {
+  visibility: hidden;
+  visibility: visible;
+}

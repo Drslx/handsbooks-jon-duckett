@@ -1,0 +1,23 @@
+/* ALTURA E LARGURA DA CAIXA E COR DE FUNDO */
+
+/* Altura, Largura Cor de fundo */
+div.box {
+    height: 300px;
+    width: 300px;
+    background-color: #c90c74;
+}
+
+/* Altura e Largura do texto e Cor de fundo */
+p{
+    height: 75%;
+    width: 75%;
+    background-color: #bbbbaa;
+}
+
+/* Aplicar margin aos elemento com atributo class */
+div[class]{
+    margin: 40px;
+}
+
+
+

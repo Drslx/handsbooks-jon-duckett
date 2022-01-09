@@ -1,0 +1,11 @@
+/* primeira letra usando o pseudoelemento :first-letter*/
+
+.p1::first-letter {
+  font-size: 500%;
+}
+
+/* primeira linha usando pseudoelemento :first-line */
+.p6::first-line {
+  text-decoration-color: blue;
+  font-size: 200%;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Long-Tables</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Long-Tables</h1>
+
+      <!-- Codigo antigo de estilo aplicado na tag ! Usar CSS -->
+      <table border="1" bgcolor="#efefef" width="400" cellpadding="5" cellspacing="5">
+        <!-- Titulo da tabela devem situar-se no elemento <thead> -->
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Income</th>
+            <th>Expenditure</th>
+          </tr>
+        </thead>
+
+        <!-- O corpo deve situar-se no elemento <tbody> -->
+        <tbody>
+          <tr>
+            <th>1st January</th>
+            <td>250</td>
+            <td>36</td>
+          </tr>
+
+          <tr>
+            <th>2nd January</th>
+            <td>285</td>
+            <td>48</td>
+          </tr>
+
+          <tr>
+            <th>3rd January</th>
+            <td>260</td>
+            <td>42</td>
+          </tr>
+
+          <tr>
+            <th>4th january</th>
+            <td>290</td>
+            <td>38</td>
+          </tr>
+        </tbody>
+
+        <!-- O rodapé deve ficar dentro do elemento <tfoot> -->
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>7824</td>
+            <td>1241</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>

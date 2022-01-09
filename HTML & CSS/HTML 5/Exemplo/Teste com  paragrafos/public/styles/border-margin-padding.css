@@ -1,0 +1,60 @@
+/* BORDA, MARGEM E PREENCHIMENTO */
+
+h1 {
+  margin: 30px;
+
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: rgba(233, 77, 56, 0.788);
+}
+
+h1::first-line {
+  text-indent: 4px;
+}
+
+h2 {
+  margin: 10px;
+
+  text-transform: capitalize;
+}
+
+/* REGRA PARA CLASS ONE E TWO APLICANDO DIV*/
+.one,
+.two,
+.five {
+  border: 1px solid rgba(233, 77, 56, 0.788);
+  margin: 20px;
+  width: 20%;
+}
+
+/* APLICANDO AOS PARAGRAFOS */
+.on,
+.tw,
+.fi {
+  padding: 6px;
+}
+
+/* SEM BORDA E PREENCHIMENTO  APLICANDO A DIV*/
+.tree,
+.four {
+  border: 1px solid rgba(233, 77, 56, 0.788);
+
+  margin-left: 20px;
+  width: 20%;
+}
+
+/* APLICANDO AOS PARAGRAFOS */
+.tr,
+.fo {
+  margin-bottom: 5px;
+}
+
+.five {
+  
+  margin-right: auto;
+  margin-left: auto;
+
+  
+  
+}

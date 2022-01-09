@@ -1,0 +1,21 @@
+/* BORDA ELIPTICAS */
+
+.fiv {
+  padding-top: 18px;
+
+  border: 5px double;
+  border-radius: 100%;
+
+  width: 60px;
+  height: 40px;
+  
+  text-align: center;
+
+  color: white;
+  background-color: brown;
+  
+}
+
+p:hover{
+    text-transform: uppercase;
+}

@@ -1,0 +1,46 @@
+/* Reset para padronizar o visual entre os navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px;
+}
+
+.container > div {
+  margin-bottom: 10px;
+}
+
+img:not(.figure img) {
+  box-shadow: 1px 4px 10px 0.4px rgb(70, 39, 39);
+  border-radius: 10px;
+}
+
+.leg__img {
+  border: 1px solid;
+}
+
+.before__p,
+.start__p,
+.mid__p {
+  padding: 10px;
+  border: 1px solid;
+}
+
+.box__figure {
+  width: 280px;
+  height: max-content;
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.figure img {
+  width: 100%;
+  border: 1px solid;
+  background: rgb(99, 62, 136);
+}

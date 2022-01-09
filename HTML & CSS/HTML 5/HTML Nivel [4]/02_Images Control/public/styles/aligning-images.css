@@ -1,0 +1,39 @@
+body {
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1 {
+  line-height: 40px;
+  text-align: center;
+  font-weight: normal;
+
+  margin-top: 10px;
+  padding-bottom: 5px;
+
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.medium {
+  width: 250px;
+  height: 250px;
+
+  border: 1px solid;
+  padding: 5px;
+}
+
+.align-center {
+  display: block;
+  margin: 0px auto;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        float: left;
+
+        height: 960px;
+      }
+
+      form{
+        position: relative;
+        left: 120%;
+      }
+
+      .footer{
+        position: fixed;
+        bottom: 10px;
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <nav></nav>
+    <article></article>
+
+    <form action="" method="GET">
+      <fieldset>
+        <legend>Your Details</legend>
+
+        <label
+          >Name:
+          <input type="text" name="name" size="30" maxlength="100" /> </label
+        ><br />
+        <label
+          >Email:
+          <input
+            class="email"
+            type="email"
+            name="email"
+            size="30"
+            maxlength="100"
+          /> </label
+        ><br />
+      </fieldset>
+      <br />
+
+      <fieldset>
+        <legend>Your Review</legend>
+
+        <p>
+          <label for="hear-about">How did you hear about us?</label>
+
+          <select name="referrer" id="hear-about">
+            <option value="google">Google</option>
+            <option value="friend">Amigos</option>
+            <option value="other">Outros</option>
+          </select>
+        </p>
+
+        <p>
+          Would you visit again?<br />
+          <label><input type="radio" name="rating" value="yes" /> Yes</label>
+          <label><input type="radio" name="rating" value="no" /> No</label>
+          <label
+            ><input type="radio" name="rating" value="maybe" /> Maybe</label
+          >
+        </p>
+
+        <p>
+          <label for="comments"> Comments:</label><br />
+          <textarea name="comments" id="" cols="40" rows="4"></textarea>
+        </p>
+
+        <label
+          ><input type="checkbox" name="subscribe" checked="checked" />Sign me
+          up for email updates</label
+        >
+        <br />
+        <input type="submit" value="Submit review" />
+      </fieldset>
+    </form>
+
+    <p class="footer">&copy Copyright Douglas Ricardo</p>
+  </body>
+</html>

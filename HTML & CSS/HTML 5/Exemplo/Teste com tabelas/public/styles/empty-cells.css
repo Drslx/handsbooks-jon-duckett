@@ -1,0 +1,47 @@
+/* BORDAS EM COLUNAS VAZIAS */
+
+table {
+  width: 30%;
+
+  empty-cells: show;
+}
+
+.th-one {
+  letter-spacing: 1.5px;
+}
+
+.td-sales {
+  padding: 2px;
+
+  font-size: 20px;
+  word-spacing: 3px;
+
+  background-color: rgb(190, 204, 204);
+}
+.td-sold {
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+/* Teste */
+h2 {
+  text-transform: capitalize;
+}
+
+.teste-one {
+  empty-cells: show;
+}
+td {
+  height: 50px;
+
+  border: 2px solid black;
+  text-align: center;
+}
+
+.teste-two {
+  empty-cells: hide;
+}
+
+td {
+  background-color: #0088dd;
+}

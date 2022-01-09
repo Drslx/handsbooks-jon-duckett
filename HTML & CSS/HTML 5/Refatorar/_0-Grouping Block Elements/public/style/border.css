@@ -1,0 +1,17 @@
+/* BORDA */
+
+
+html{
+    border: 2px solid black;
+    width: 80%;
+}
+
+body{
+    border: 2px solid red;
+    width: 50%;
+}
+/* Podemos abreviar e usar 'border' e especeficar os valores em uma unica propriedade */
+p{
+    border: 2px solid #0088dd;
+    width: 50%;
+}

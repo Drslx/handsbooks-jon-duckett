@@ -1,0 +1,19 @@
+h1 {
+  /* color name */
+  color: darkcyan;
+}
+
+h2 {
+  /* hex name */
+  color: #ee3e80;
+}
+
+h3 {
+  /* rgb value */
+  color: rgb(100, 100, 100);
+}
+
+
+img{
+  float: right;
+}

@@ -1,0 +1,14 @@
+/* MARGEM */
+
+/* Espaço entre as caixas */
+.one,
+.two {
+  width: 200px;
+  border: 2px solid hsl(203, 100%, 43%);
+  padding: 10px;
+}
+
+.two {
+  margin: 20px;
+  margin-top: unset;
+}

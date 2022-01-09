@@ -1,0 +1,35 @@
+/*  */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+}
+
+table {
+  width: 200px;
+}
+
+th,
+td {
+  padding: 7px 10px 10px 10px;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+}
+
+tr[class] {
+  background-color: #efefef;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #c3e6c5;
+}
+
+.one:hover{
+    color:  rgb(209, 57, 57);
+}
+

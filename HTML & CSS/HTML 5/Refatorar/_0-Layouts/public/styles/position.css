@@ -1,0 +1,43 @@
+/* Estilo para ambos os Titulos */
+.relative,
+.absolute,
+.fixed {
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 21.1em;
+  text-align: center;
+}
+
+/* Posicionamento Relativo no titulo 0*/
+/* Move um elemento em relação ao local onde ele estaria no fluxo normal */
+/* Para indicar a distancia de deslocamento usamos as  propriedades (top, bottom, right, left) */
+.relative {
+  position: relative;
+  top: 60px;
+  z-index: 10;
+  background-color: aqua;
+}
+
+/* Posicionamento Absoluto no titulo 1 */
+/* A caixa e removida do fluxo normal, e nao afeta outros elementos e agem como se ela nao estive la */
+/* Para indicar a distancia de deslocamento usamos as  propriedades (top, bottom, right, left) */
+.absolute {
+  position: absolute;
+  top: 136px;
+
+  z-index: 10;
+  background-color: aquamarine;
+}
+
+/* Posicionamento Fixo no titulo 3 */
+/* Posiciona o elemento em relação a janela, ao rolar a janela o elemento se mantem fixo */
+/* Para indicar a distancia de deslocamento usamos as  propriedades (top, bottom, right, left) */
+.fixed {
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  background-color: rgb(22, 132, 136);
+}
+
+

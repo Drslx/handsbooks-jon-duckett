@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Add Audio 5</title>
+  </head>
+  <body>
+    <audio src="/audios/bensound-sunny.mp3" controls></audio>
+
+    <h2>Podemos usar atributos ao atributo controls</h2>
+    <ul>
+      <li>autoplay</li>
+      <li>preload</li>
+      <ul>
+        <li>auto</li>
+        <li>metadata</li>
+        <li>none</li>
+      </ul>
+      <li>loop</li>
+    </ul>
+
+    <audio controls preload="auto">
+      <source src="/audio/bensound-sunny.ogg" />
+      <source src="/audio/bensound-sunny.mp3" />
+      <p>Esse navegador nao possui suporte</p>
+    </audio>
+
+
+    
+  </body>
+</html>

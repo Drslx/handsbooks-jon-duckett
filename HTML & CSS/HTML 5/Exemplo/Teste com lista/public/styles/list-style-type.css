@@ -1,0 +1,18 @@
+/* ESTILOS DE MARCADORES */
+
+/* A propriedade 'list-style-type' pode ser usada nos elementos '<ol>, <ul> e <li>
+*/
+
+/* Aplicando numero romanos  a lista ordenadas */
+ol {
+  list-style-type: lower-roman;
+}
+
+li {
+  margin: 10px 0px 0px 0px;
+}
+
+/* Aplicando a lista nao ordenadas  */
+ul {
+  list-style-type: square;
+}

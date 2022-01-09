@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Spanning Columns</title>
+
+    <link
+      rel="stylesheet"
+      href="/10-Tables/public/styles/test-td-colspan.css"
+    />
+  </head>
+  <body>
+    <!-- Mesclando Colunas com atributo "colspan" -->
+
+    <table>
+      <tr class=""> <!-- Linha da tabela 1-->
+        <th></th><!-- Titulo para uma coluna 1 -->
+        <th class="one">9am</th>
+        <th class="one">10am</th>
+        <th class="one">11am</th>
+        <th class="one">12am</th>
+      </tr>
+
+      <tr>  <!-- Linha da tabela 2 -->
+        <th>Monday</th><!-- Titulo para coluna 2 -->
+        <td colspan="2">Geography</td> <!-- Dados da tabela2 -->
+        <td>Math</td>
+        <td>Art</td>
+      </tr>
+      <tr class="">
+        <th>Tuesday</th>
+        <td colspan="3">Gym</td>
+        <td>Home Ec</td>
+      </tr>
+    </table>
+  </body>
+</html>

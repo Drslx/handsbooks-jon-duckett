@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document Definition List</title>
+
+  <style>
+    /* Nao se atente a essas regras ainda. */
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: border-box;
+    }
+
+    div {
+      width: max-content;
+      height: max-content;
+      border: 1px solid;
+      margin: 10px;
+
+      line-height: 1.4em;
+    }
+
+    div>* {
+      /* margin: 10px; */
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <!-- A lista de definicao e criado usando o elemento <dl> e consiste de uma serie de termos e suas definicoes -->
+
+    <!-- Dentro do elemento <dl> costuma ver pares de elemento <dt> e <dd> -->
+
+    <!-- O elemento <dt> e usado para conter o termo a ser definido -->
+
+    <!-- O elemento <dd> e usado para conter a definicao, as vezes temos dois termos para mesma definicao ou duas definicoes diferentes para o mesmo termo -->
+
+    <dl>
+      <div>
+        <dt>Escala</dt><!-- Termo -->
+        <dd>
+          <!-- Definicao -->
+          E uma medida usada para definir as dimensões proporcionais a tamanhos
+          reais.
+        </dd>
+
+        <dd>Existem diversas definições diferentes de <b>escala</b>.</dd>
+      </div>
+
+      <div>
+        <dt>SUV</dt>
+        <dd>
+          A <b>definicao</b> correta significa Sport Utility Vehicle, O
+          <b>termo</b> original vem da sigla Surburban Vehicle.
+        </dd>
+      </div>
+    </dl>
+  </div>
+</body>
+
+</html>

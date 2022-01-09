@@ -1,0 +1,1 @@
+/* Ignorando iteracoes com (continue) */

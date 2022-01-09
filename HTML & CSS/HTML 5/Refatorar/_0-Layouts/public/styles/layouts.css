@@ -1,0 +1,61 @@
+body {
+  width: auto;
+  min-width: 200px;
+  background-color: black;
+}
+
+.block,
+.line {
+  border: 1px solid silver;
+}
+/*  */
+h1 {
+  margin: 10px;
+  width: 31%;
+  height: 50px;
+
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5em;
+
+  color: white;
+  background-color: rgb(54, 52, 52);
+}
+
+/* Estilo para class one e two */
+.p-one,
+.p-two {
+  margin: 10px;
+  padding: 15px;
+
+  letter-spacing: 0.8px;
+  background-color: silver;
+}
+
+ul {
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 38%;
+
+  text-indent: -5px;
+  word-spacing: 2px;
+  background-color: silver;
+}
+
+/* Estilo para elementos em linha  */
+.line {
+  margin-top: 10px;
+}
+
+.p-two {
+}
+
+img {
+  border: 1px solid;
+  border-radius: 4px;
+  
+  width: 50px;
+  height: 50px;
+}
+
