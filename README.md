@@ -1,3 +1,3 @@
 # HTML-CSS-JS
 
-Meu guia de estudos sobre HTML,CSS e JavaScript.
+Repositorio com exemplos de  HTML, CSS, JAVASCRIPT e JQUERY

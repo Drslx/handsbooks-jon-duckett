@@ -20,3 +20,4 @@ if (ladoIguais == 3) {
 } else {
   console.log("Escaleno");
 }
+

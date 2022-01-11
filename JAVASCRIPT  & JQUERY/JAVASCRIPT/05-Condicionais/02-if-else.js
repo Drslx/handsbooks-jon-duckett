@@ -78,7 +78,6 @@ if (dia == "") {
   }
 }
 
-
 /* Exemplo com Condicional (if else) */
 let saldoContaA = 100;
 let valorCamisaA = 100;

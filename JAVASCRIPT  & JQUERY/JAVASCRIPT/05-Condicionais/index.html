@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--     <div id="id">
+        <script>
+            let score1 = 9;
+            let score2 = 9;
+            const pass1 = 6
+            const pass2 = 6
+            const minPass = ((score1 >= pass1) || (score2 >= pass2))
+
+            const msg = 'Resit required: ' + !(minPass)
+            const el = document.getElementById('id');
+            el.textContent = msg
+        </script>
+    </div> -->
+
+    <!-- <div id="id2">
+        <script>
+            let score = 70
+            let msg = '' // 
+
+            function congratulate() {
+                // Recebe a variavel vazia + 
+                msg += "Congratulations! "
+            }
+
+            // Se a condicao for true, entao chama a funcao 
+            if (score >= 50) {
+                congratulate();
+                msg += "Proceed to the  next round."
+            }
+
+            const getId = document.getElementById('id2');
+            getId.textContent = msg
+        </script>
+    </div> -->
+
+    <div id="id3">
+        <script>
+            // Exemplo de condicionais isFalse + arrows function.
+            let msg;
+            let pass = 50;
+            const score = 75;
+
+            const congratulate = () => (msg = "Congratulations, you passed! ");
+
+            if (score >= pass) {
+                congratulate();
+
+            } else {
+                msg = "Have another go!";
+            }
+
+            let el = document.getElementById("id3");
+            el.textContent = msg;
+
+        </script>
+    </div>
+
+    <div id="id4">
+        <script>
+            let msgB;
+            let scoreB = 45
+            let passB = scoreB >= 50 ? "Congratulations, you passed! " : "false";
+
+            const elB = document.getElementById("id4")
+            elB.textContent = msgB = passB;
+        </script>
+    </div>
+</body>
+
+</html>
