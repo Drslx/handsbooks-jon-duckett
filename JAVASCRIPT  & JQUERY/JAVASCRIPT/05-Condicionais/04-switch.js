@@ -63,10 +63,28 @@ mes = "Março";
 switch (mes) {
   case "Janeiro":
   case "Fevereiro":
-    /*  */
+  /*  */
   case "Março":
     console.log("Verão!");
     break;
   default:
     console.log("Frio");
 }
+
+// Exemplo de bloco switch que e chamado com um condicional if
+let msg;
+let value1 =  2;
+
+if (value1 == 1) {
+  console.log("if");
+  switch (value1) {
+    case 1:
+      msg = "switch case 1";
+      break;
+      
+    case 2:
+      msg = "switch case 2";
+      break;
+  }
+}
+console.log(msg);

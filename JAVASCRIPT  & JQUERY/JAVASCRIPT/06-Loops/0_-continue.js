@@ -1,1 +1,1 @@
-/* Ignorando iteracoes com (continue) */
+// Ignorando iteracoes com (continue)

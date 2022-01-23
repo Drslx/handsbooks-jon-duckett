@@ -48,3 +48,8 @@ O operador condicional (ternário) é o único operador JavaScript que leva trê
 /- Exemplo: var age = 26;
 var beverage = (age >= 21) ? "Beer" : "Juice";
 console.log(beverage); // "Beer"
+
+# ! Dica.
+
+Colocar primeiro o codigo com maior probabilidade de retornar true em operacoes OR.
+E primeiro com maior probabilidade de retornar false em operacoes AND.

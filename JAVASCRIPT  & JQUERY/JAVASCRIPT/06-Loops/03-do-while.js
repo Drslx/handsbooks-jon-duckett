@@ -1,16 +1,14 @@
-/* Loop com (do while) */
-
-/* 
-Assim como o while, este comando repete a instrução enquanto a condição for verdadeira, porém a condição é verificada após a instrução do while. Portanto, se o contador for alterado dentro da instrução, isso afetará a verificação da condição.
-
-O comando do while é usado quando é necessário executar o bloco de instruções interno pelo menos uma vez
+/* Loop com (do while) 
+- A diferença do loop while e  que do while as instruções no bloco vem antes da condicao e instruções sao executadas  ao menos uma vez.
 */
-let numeroVagas = 10;
-let novoParticipantes = 9;
+
+// Exemplo simples do loop do while.
+
+let i = 1;
+let msg = "";
 
 do {
-  numeroVagas -= novoParticipantes;
-  console.log("Vagas Salvas", +novoParticipantes);
-  console.log("Vagas Livres", +numeroVagas);
-  break;
-} while (numeroVagas > novoParticipantes);
+  msg += i + " x 5 = " + i * 5;
+} while (i < 1);
+
+console.log(msg);

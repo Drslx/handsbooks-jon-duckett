@@ -1,14 +1,13 @@
-/* Loop padrao (for) */
-/* 
-1: Iniciador - variavel com um numero que e incrementado com numero de loops.
-2: Condicao de saída - e definido quando o loop deve parar de executar, geralemente apresenta um operador de comparação.
-3: Expressão final - Avalia cada vez que loop passou por uma iteração, serve para incrementar ou decrementar.
+/* Loop padrao (for) - Se precisamos executar o codigo um numero de vezes, usamos o for.
+- Temos um contador e uma condicao de fim
 */
-for (let loopFor = 0; loopFor < 10; loopFor++) {
-  /* console.log(loopFor + 1); */
+
+// Exemplo simples do looo for.
+for (let i = 0; i < 10; i++) {
+  console.log(i);
 }
 
-/* Exemplos: 1 iterando de um array*/
+/* Exemplos: iterando um array*/
 let colorList = ["Branco", "Preto", "Azul", "Rosa"];
 let infoList = "Cor Escolhida: ";
 

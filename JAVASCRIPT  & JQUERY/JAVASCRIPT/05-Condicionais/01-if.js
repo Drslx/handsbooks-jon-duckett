@@ -82,6 +82,16 @@ const comparison = score1 + score2 > highScore1 + highScore2;
 //console.log(2 < 3 && 3 >= 2);
 
 // Avaliação de curto-circuito apos encontrar o resultado esperado nao ha necessidade de avaliar a segunda condicao.
-const f =  anything && false;
+const f = false && anything ;
 const t = true || anything;
 console.log(f, t);
+
+const valueA = 0;
+const valueB = 1;
+const valueC = 2;
+
+if (valueA || valueB || valueC){
+  console.log(true);
+} else {
+  console.log(false);
+}
