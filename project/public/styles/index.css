@@ -36,6 +36,15 @@ li {
   border-bottom: 1px solid;
 }
 
-#one {
-  /*  font-size: 1.4em; */
+.cool {
+  font-size: 15px;
+  color: white;
+  background: rgb(10, 151, 109);
+}
+
+#cl{
+  width: 300px;
+  height: 50px;
+  border: 1px solid;
+  display: initial;
 }

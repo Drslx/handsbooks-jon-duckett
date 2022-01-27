@@ -44,21 +44,18 @@ itemTwo.style.fontSize = styleJs.font;
 
 // Objeto com estilos inJs
 const styleJs = {
-  font: "25px",
-  color: ["white", "red", "blue", "darkblue"],
-  background: ["rgb(2, 133, 78)"],
-
-  changeFont: function (font) {
-    return styleJs.font;
-  },
+  font_Size: "25px",
+  color_Text: ["white", "red", "blue", "darkblue"],
+  background_Color: ["rgb(10, 151, 109)"],
 };
 
 // Modificando estilos
 const elOne = document.getElementById("one");
-elOne.style.fontSize = styleJs.font;
-elOne.style.backgroundColor = styleJs.background;
-elOne.style.color = styleJs.color[0];
+elOne.style.fontSize = styleJs.font_Size;
+elOne.style.backgroundColor = styleJs.background_Color;
+elOne.style.color = styleJs.color_Text[0];
 
 // Modificando class
-const elTwo = document.getElementById("two");
-elTwo.className = "cool";
+/* const elTwo = document.getElementById("two");
+elTwo.className = "cool"; */
+
