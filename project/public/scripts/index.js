@@ -16,7 +16,7 @@
 /* 
 1 - document.getElementById().parentNode = seleciona o pai do no do elemento atual 'que retornara apenas um elemento'.
 2 - document.getElementById().previousSibling/nextSibling.innerHTML = seleciona o irmao anterior a partir da arvore DOM.
-3 - ""document.getElementById().firstChild/lastChild.innerHTML = seleciona o primeiro ou ultimo filho do elemento atual.
+3 - document.getElementById().firstChild/lastChild.innerHTML = seleciona o primeiro ou ultimo filho do elemento atual.
 */
 
 // Acessar ou atualizar valores de atributos.

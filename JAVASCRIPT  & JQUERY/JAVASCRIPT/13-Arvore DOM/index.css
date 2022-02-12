@@ -13,7 +13,7 @@ body {
 }
 
 #page {
-  width: 300px;
+  width: 350px;
   height: max-content;
   margin: 10px;
   padding: 10px;
@@ -42,3 +42,9 @@ li {
   background: rgb(10, 151, 109);
 }
 
+#cl{
+  width: 300px;
+  height: 50px;
+  border: 1px solid;
+  display: initial;
+}
