@@ -87,6 +87,7 @@ console.log(myList);
 /* Remover itens no final do arrays com .pop */
 let myListB = ["Js", "Python", "Java"];
 myListB.pop();
+
 console.log(myListB);
 
 /* unshift e shift Testar */

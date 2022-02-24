@@ -43,7 +43,7 @@ itemTwo.style.fontSize = styleJs.font;
  */
 
 // Objeto com estilos inJs
-const styleJs = {
+export const styleJs = {
   font_Size: "25px",
   color_Text: ["white", "red", "blue", "darkblue"],
   background_Color: ["rgb(10, 151, 109)"],
@@ -58,4 +58,3 @@ elOne.style.color = styleJs.color_Text[0];
 // Modificando class
 /* const elTwo = document.getElementById("two");
 elTwo.className = "cool"; */
-

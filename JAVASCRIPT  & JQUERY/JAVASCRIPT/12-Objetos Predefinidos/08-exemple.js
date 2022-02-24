@@ -1,5 +1,4 @@
 //
-
 const el = (function () {
   // Objeto hotel
   const hotel = {
